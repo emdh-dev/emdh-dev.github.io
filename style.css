@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(44, 43, 43);
+    background-color: #2c2b2b;
     margin: 0;
     padding: 0;
 }
@@ -22,7 +22,7 @@ h1 {
 
 h2, h3 {
     color: white;
-    padding-left: 5%;
+    padding-left: 15%;
 }
 
 p {
@@ -30,5 +30,66 @@ p {
     text-align:justify;
     display: inline-block;
     max-width: 70%;
-    padding-left: 5%;
+    padding-left: 15%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5a5959;
+}
+  
+li:not(#EMDH-dev-tab) {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:link {
+    text-decoration: none;
+
+}
+
+li:not(#EMDH-dev-tab) a:hover:not(.active) {
+    background-color: #717070;
+}
+
+#selected-tab {
+    background-color: #04AA6D;
+}
+
+#EMDH-dev-tab {
+    float: right;
+    background-color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;    
+    padding: 2% 0;
+    border-top: 1px solid #e7e7e7;
+    color: white;
+}
+
+.project-item {
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    width: 80%;
+    padding-left: 15%;
+}
+
+.project-item .project-image-thumbnail {
+    padding-left: 15%
 }
