@@ -20,7 +20,7 @@ h1 {
     text-align: center;
 }
 
-h2, h3 {
+h3 {
     color: white;
     padding-left: 15%;
 }
@@ -56,7 +56,6 @@ li a {
 
 li a:link {
     text-decoration: none;
-
 }
 
 li:not(#EMDH-dev-tab) a:hover:not(.active) {
@@ -84,12 +83,66 @@ footer {
 }
 
 .project-item {
-    border: 1px solid #e7e7e7;
+    border: 3px solid #e7e7e7;
     border-radius: 5px;
-    width: 80%;
-    padding-left: 15%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1000px;
 }
 
-.project-item .project-image-thumbnail {
-    padding-left: 15%
+.project-item h2 {
+    color: white;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+.project-item h4 {
+    color: white;
+    text-align: left;
+    padding-left: 0;
+}
+
+.project-link {
+    font-weight: normal;
+}
+
+.project-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.project-info {
+    flex: 1;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-info h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.project-button {
+    margin-top: auto;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.project-image-thumbnail {
+    width: 50%;
+    height: auto;
 }
