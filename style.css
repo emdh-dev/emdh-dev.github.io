@@ -33,6 +33,10 @@ p {
     padding-left: 15%;
 }
 
+#navbar {
+    width: 100%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -131,18 +135,34 @@ footer {
     background-color: white;
     border: none;
     color: black;
-    padding: 10px 20px;
+    padding: 2% 4%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
     width: fit-content;
 }
 
 .project-image-thumbnail {
     width: 50%;
     height: auto;
+}
+
+.back-button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 0.75% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: fit-content;
 }
