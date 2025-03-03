@@ -12,7 +12,7 @@
     <main>
       <div id="navbar">
         <ul>
-          <li><a href="projects.html">Projects</a></li>
+          <li><a href="projects.html" id="selected-tab">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="about.html">About</a></li>
           <li id="EMDH-dev-tab"><a>EMDH Dev</a></li>
@@ -39,7 +39,7 @@
           The "Play" mode has an exclusive powerup: +5 seconds! This adds 5 seconds to your 45-second timer.
           Endless moles has an exclusive powerup too: -1 Strike! This removes one of your strikes that you've accumulated, which can get you out of sticky situations. This has saved me so many times!
           
-          <br><br>The challenge and unlockables systems go hand-in-hand. Challenges in the game encourage you to play both modes, while also testing your skills and encouraging you to get better.
+          <br><br>The challenges and unlockables systems go hand-in-hand. Challenges in the game encourage you to play both modes, while also testing your skills and encouraging you to get better.
           Challenges can be anything from hitting a certain amount of moles and powerups, to lasting a certain amount of time in Endless Moles, to playing the game in a unique (and maybe a bit goofy) way!
           I love seeing different stats when I'm playing games, so I included them in the challenges screen! Pretty much every stat you could want (moles hit, moles missed, powerups hit, powerups missed, etc) is tracked
           on the Challenges screen.
@@ -63,23 +63,25 @@
           I had some ideas after trying a bunch of apps out: something intuitive that didn't require text instructions to play, and used the remote well.
           I figured a game where you have to hit 1 of the 4 remote's directional buttons was the way to go, and <b>Whack 'em Moles</b> was born!
           I originally thought I could get this done within a month or two. I focused on the main mechanics: moles spawning and despawning, hits, misses, scoring, and then eventually powerups to make the gameplay more fun.
-          Once I incorporated some powerups, I realized it would be really cool to try to add a challenge system with goals to work towards! I love seeing trophy, achievement, and challenge systems in games and thought it'd be unique on Roku.
-          And once I had the challenges done, they needed some sort of reward to go with them! Designing the cacti moles, I had more ideas for costumes and thought this was the perfect way to incorporate them.
-          I didn't know that these two features would end up 2-3x'ing my total development time, but I was happy going for it!
+          Once I added some powerups, I thought it'd be really cool to try to add a challenge system with goals to work towards.
+          And once I had the challenges system done, they needed some sort of progression and reward to complement it. Designing the cacti moles, I had more ideas for costumes and thought this was the perfect way to work them into the game.
+          I didn't know that these two features would end up 2-3x'ing my total development time, but I was having a fun time going for it!
           
           <br><br>I had no experience creating game assets, art, music, or even sound effects.
-          Art was the first step. I started off with placeholder images (the numbers 1 and 2 for the specific amount of hits the mole needed), and a green background I spent 2 minutes making with my trackpad in Microsoft Paint.
-          I fleshed the game out after (working mole spawns, powerups, scoring), and then I spent 5-15 minutes upgrading the art again in Microsoft Paint:
+          Art was the first step. I started with placeholder images (the numbers 1 and 2 for the specific amount of hits the mole needed), and a green background I spent 2 minutes making with my trackpad in Microsoft Paint.
+          I spend the next few weeks writing the core game logic after (working mole spawns, powerups, scoring), and then I spent 5-15 minutes upgrading the following assets again in Microsoft Paint:
           a farm background, a desert background (color-swapped farm level), and some simple one-hit and two-hit moles (that were pretty much just ovals).
           
-          <br><br>Graphics helped the game feel more real, but they still had a long way to go. I stuck with these until the end, when I had all major bugs ironed out.
-          I used an older iPad with Procreate to make all the final graphics. I don't like to draw and I don't know how, so it was intimidating.
-          I started by experimenting with every brush tool, seeing what looked cool and could fit the farm level design that I had in my head. After ~15 hours, I had my farm level!
+          <br><br>Graphics helped the game feel more real, but they still had a long way to go. I stuck with these until the end, when all major bugs were ironed out and the game felt ready to release.
+          I used an older iPad with Procreate to make all the final graphics, and I started by experimenting with every brush tool until I found things that looked like they fit the farm level design that I had in my head.
+          After ~15 hours, I had my farm level background!
           
-          <br><br>The desert level was next and was going to get a complete re-do from the palette-swap it previously was. I was struggling with this one for a bit, since I couldn't get the sand to look right.
-          After multiple attempts and another 10-15 hours, the desert level was done!
+          <br><br>The desert level was next and was going to get a complete re-do from the palette-swap it previously was. I was struggling with this one for an hour or two since I couldn't get the sand to look right.
+          After multiple design approaches over another 10-15 hours, the desert level was done!
           Last was the moles. I loved the way the moles came out from my first attempt, so I just cleaned them up a bit for the final version of the game.
-          For the unlockables, they were implemented in kind of a silly way. Rather than creating a mole, a hat, and an accessory, and attaching them on the mole every time they spawn, I created 162 different images of every single combination of unlockables possible.
+          
+          
+          <br><br>For the unlockables, they were implemented in kind of a silly way. Rather than creating a mole, a hat, and an accessory, and attaching them on the mole every time they spawn, I created 162 different images of every single combination of unlockables possible.
           This was an 10+ hours of manual work that involved lots of copy-pasting, resizing assets, renaming files, and then transferring files.
           I went this route because I was worried that having 4 moles on screen at once, each with customizations on them, would be glitchy and inconsistent when transformations (spawning, getting hit, running away) were applied to every mole.
           Instead of risking it and having to re-do it later, I did it my way instead. This ended up taking up around 15% of the total space for <b>Whack 'em Moles</b>.

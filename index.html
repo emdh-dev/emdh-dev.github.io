@@ -1,28 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>EMDH Dev</title>
-        <link rel="stylesheet" href="./style.css">
-        <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    </head>
-    <body>
-        <main>
-            <h1>EMDH Dev</h1>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EMDH Dev - Projects</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <div id="navbar">
+        <ul>
+          <li><a href="projects.html" id="selected-tab">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li id="EMDH-dev-tab"><a>EMDH Dev</a></li>
+        </ul>
+      </div>
 
-            <div id="navbar">
-                <ul>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li id="EMDH-dev-tab"><a>EMDH Dev</a></li>
-                </ul>
-            </div>
+      <div class="site-content">
+        <h1>Projects</h1>
 
-        </main>
-        
-        <script src="index.js"></script>
-    </body>
+        <br><br><div class="project-item">
+          <h2>Whack 'em Moles</h2>
+          <div class="project-content">
+              <div class="project-info">
+                  <h4>Roku Game</h4>
+                  <h4 class="project-link"><a href="https://chromewebstore.google.com/detail/study-mode-youtube/hhjnoabnlicjpahfibejifhankpfahnd" target="_blank">ROKU LINK</a></h4>
+                  <a href="./whack-em-moles.html">
+                    <button class="project-button">Learn More</button>
+                  </a>
+              </div>
+              <img class="project-image-thumbnail" src="images/whack-em-moles/title_screen.png" alt="Screenshot of the Whack 'em Moles Roku game by EMDH Dev">
+          </div>
+        </div>
+
+        <br><br><div class="project-item">
+          <h2>Study Mode: YouTube</h2>
+          <div class="project-content">
+              <div class="project-info">
+                  <h4>Google Chrome + Mozilla Firefox Browser Extension</h4>
+                  <h4 class="project-link">Google Chrome: <a href="https://chromewebstore.google.com/detail/study-mode-youtube/hhjnoabnlicjpahfibejifhankpfahnd" target="_blank">https://chromewebstore.google.com/detail/study-mode-youtube/hhjnoabnlicjpahfibejifhankpfahnd</a></h4>
+                  <h4 class="project-link">Mozilla Firefox: <a href="https://addons.mozilla.org/en-US/firefox/addon/study-mode-youtube/" target="_blank">https://addons.mozilla.org/en-US/firefox/addon/study-mode-youtube/</a></h4>
+                  <a href="./study-mode-youtube.html">
+                    <button class="project-button">Learn More</button>
+                  </a>
+              </div>
+              <img class="project-image-thumbnail" src="images/study-mode-youtube/extension.png" alt="Screenshot of the Google Chrome and Mozilla Firefox extension Study Mode: YouTube by EMDH Dev">
+          </div>
+        </div>
+
+        <br><br><div class="project-item">
+          <h2>Chrome Browser Extension #2 - Coming Soon!</h2>
+        </div><br><br>
+      </div>
+
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>

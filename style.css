@@ -84,6 +84,7 @@ a {
 
 #navbar #selected-tab {
     background-color: #F3F8F2;
+    color: black;
 }
 
 #navbar #EMDH-dev-tab {
@@ -171,9 +172,14 @@ a {
     width: fit-content;
 }
 
-.legal-text h1, .legal-text h2, .legal-text h3, .legal-text h4, .legal-text p, .legal-text li {
-    color: #F3F8F2;
+.legal-text {
     margin-left: 5%;
+    color: #F3F8F2;
+}
+
+.legal-text a {
+    color: #C0C8E3;
+    text-decoration: underline;
 }
 
 footer {
@@ -185,4 +191,9 @@ footer {
     padding: 2% 0;
     border-top: 1px solid #F3F8F2;
     color: #F3F8F2;
+}
+
+.socials-footer a {
+    color: #C0C8E3;
+    text-decoration: underline;
 }
