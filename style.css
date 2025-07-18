@@ -216,7 +216,7 @@ footer {
 }
 
 .project-description-gradient-background {
-    background-image: linear-gradient(0deg , #6f1ab1, brown);
+    background-color: #6F1AB1;
     border-radius: 40px;
     position: absolute;
     top: 55%;
@@ -227,7 +227,7 @@ footer {
 }
 
 .second .project-description-gradient-background {
-    background-image: linear-gradient(-20deg , white, blue)
+    background-color: #e50000;
 }
 
 .small-project-logo {
