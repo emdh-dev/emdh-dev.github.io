@@ -216,7 +216,6 @@ footer {
 }
 
 .project-description-gradient-background {
-    background-color: #6F1AB1;
     border-radius: 40px;
     position: absolute;
     top: 55%;
@@ -226,7 +225,15 @@ footer {
     transform: skew(19deg, -9deg);
 }
 
+.first .project-description-gradient-background {
+    background-color: #e50000;
+}
+
 .second .project-description-gradient-background {
+    background-color: #6F1AB1;
+}
+
+.third .project-description-gradient-background {
     background-color: #e50000;
 }
 
