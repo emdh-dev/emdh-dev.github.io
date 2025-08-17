@@ -23,12 +23,12 @@
         <h1>Study Mode: YouTube</h1>
         <h3>My first published project!</h3>
         <p>
-          <br>Download for Google Chrome: <a href="https://chromewebstore.google.com/detail/study-mode-youtube/hhjnoabnlicjpahfibejifhankpfahnd" target="_blank">https://chromewebstore.google.com/detail/study-mode-youtube/hhjnoabnlicjpahfibejifhankpfahnd</a>
-          <br>Download for Mozilla Firefox: &nbsp;&nbsp;<a href="https://addons.mozilla.org/en-US/firefox/addon/study-mode-youtube/" target="_blank">https://addons.mozilla.org/en-US/firefox/addon/study-mode-youtube/</a>
+          <br>Download for Google Chrome (v2.0, current): <a href="https://chromewebstore.google.com/detail/study-mode-youtube/hhjnoabnlicjpahfibejifhankpfahnd" target="_blank">https://chromewebstore.google.com/detail/study-mode-youtube/hhjnoabnlicjpahfibejifhankpfahnd</a>
+          <br>Download for Mozilla Firefox (v1.0): &nbsp;&nbsp;<a href="https://addons.mozilla.org/en-US/firefox/addon/study-mode-youtube/" target="_blank">https://addons.mozilla.org/en-US/firefox/addon/study-mode-youtube/</a>
 
           <br><br><br><b>Study Mode: YouTube</b> is a browser extension that allows you to remove the distracting parts of YouTube,
           especially if you're using it to learn new material or study for a class. Users can customize what they want removed every time they click the extension icon
-          &mdash; homepage videos, video sidebar, comments, and the notification badge.
+          &mdash; homepage videos, video sidebar, Shorts, comments, and the notification badge. There's even a custom word-filter you can use to remove all matching video titles and channel names.
           
           
           <br><br>I made this after having that exact problem all throughout college, where I would stay up way too late most nights watching
@@ -38,22 +38,24 @@
           and spent the free time I had after the semester ended to make this. 5 or so months after initially coming up with the idea,
           it was published and available for download on Google Chrome and Mozilla Firefox!
 
-          <br><br>I spent 80+ hours on this project. Between this being my first time writing code for a browser extension, and one of my first times using JavaScript, it took me awhile.
+          <br><br>I spent 80+ hours on this project in v1.0. Between this being my first time writing code for a browser extension, and one of my first times using JavaScript, it took me awhile.
           Learning how code gets executed at different points (page render, dynamic content loading, code injection via browser extension), trying to accomplish this all with just HTML, CSS, and vanilla JavaScript, and making a readable UI were all processes that took time.
           There was a big disconnect between how easy it was to write code into the browser console (my initial prototype) versus an actual interactive extension that gets executed on the web page.
           It was a more complex than I initially thought (when I was just writing code into the browser's console), and it took plenty of time to make work. Google Chrome and Mozilla Firefox have some differences that makes code not fully compatible with both, so I had to make some minor adjustments there.
           
+          <br><br>v2.0 took another 60+ hours and was a ground-up remake of the whole extension. I was originally just going to update the manifest version from 2.0 -> 3.0 because of Google's forced update that disabled all manifest 2 extensions, but decided to add a few more features to keep up with modern YouTube.
+          Shorts were the newest thing added to YouTube since Study Mode: YouTube v1.0. There were also some minor changes to the way video elements were named and populated over the span of the 5 years of Study Mode: YouTube, so that required updates.
+          The main feature change that I implemented, though, was selected elements automatically being deleted from pages now! Before, you would have to open the extension every time to apply.
+          Now, it uses your browser's local storage to store the changes you want to make to YouTube pages, and will automatically apply them on every page load. It also immediately removes them when you select the option, and should be working even on infinite page scrolls.
+          Infinite page scrolls are a bit tricky to work with (for me, at least), so the features might not be 100% functional. But when I tested them, they worked most of the time!
           
-          <br><br>I made <b>Study Mode: YouTube</b> free and <a href="https://github.com/emdh-dev/study-mode-youtube" target="_blank">open source</a>
-          (my code is not well-written, but it works!), because I really admire open-source communities online. So much important software used regularly &mdash; both by regular people and by huge companies around the world &mdash;
+          <br><br>I made <b>Study Mode: YouTube</b> free and <a href="https://github.com/emdh-dev/study-mode-youtube" target="_blank">open source (v1.0, but technically all my browser extensions are open-source if you just inspect them)</a>
+          because I really admire open-source software and communities online. So much important software used regularly &mdash; both by regular people and by huge companies around the world &mdash;
           is made available by its developers for free! You'll probably recognize this especially if you've spent time in PC gaming communities: free mods, level creation tools, networking software to revive permanently offline games, etc.
           It's kind of crazy what dedication, passion, and determination can lead to.
 
           <br><br>This was really cool to make! It was nice knowing that I was able to create something that I found useful, and knew that other students with the same problem could use too.
           Thank you everyone that's used this, written reviews, and sent thank you emails!
-          
-          <br><br>Updates are coming in the future! I was satisfied with how it worked when it was released and didn't see a need to update until YouTube changed its layout/functionality, or Google Chrome's webstore required updates.
-          The time is definitely overdue now &mdash; look forward to an update coming sometime (hopefully) within the first half of 2025!
         </p><br><br><br>
 
       <a href="./projects.html"><button class="back-button">Back</button></a>
