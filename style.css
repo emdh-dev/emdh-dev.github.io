@@ -36,6 +36,7 @@ a, p {
 .site-content p {
     color: #F3F8F2;
     padding-left: 2%;
+    padding-right: 2%;
 }
 
 .site-content a:link, .site-content a:visited:not(.btn) {
@@ -46,30 +47,6 @@ a, p {
 .site-content .btn:link, .site-content a:visited:not(.btn) {
     text-decoration: none;
 }
-
-/*
-.site-content li a:link, .site-content li a:visited {
-    color: #08080A;
-    text-decoration: underline;
-} */
-
-/* .site-content h1 {
-    color: #F3F8F2;
-    text-align: center;
-}
-
-.site-content h3 {
-    color: #F3F8F2;
-    padding-left: 15%;
-} */
-
-/* .site-content p {
-    color: #F3F8F2;
-    text-align:justify;
-    display: inline-block;
-    max-width: 70%;
-    padding-left: 15%;
-} */
 
 /* NAVBAR =============== */
 #navbar {
@@ -147,8 +124,8 @@ a, p {
 /* BOOTSTRAP CARD OVERRIDES (PROJECTS) =============== */
 .card-img-top {
     width: 100%;
-    height: 15vw;
-    object-fit: cover;
+    height: 20vw;
+    object-fit: fill !important;
 }
 
 div .card-body {
@@ -163,6 +140,10 @@ div .card-body p {
 .platform-text {
     font-style: italic;
     color: #808080;
+}
+
+.development-info {
+    padding-top: 0;
 }
 
 /* SOCIALS FOOTER =============== */
