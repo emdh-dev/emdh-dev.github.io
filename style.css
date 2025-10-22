@@ -146,6 +146,10 @@ div .card-body p {
     padding-top: 0;
 }
 
+.project-link {
+    padding-top: 0;
+}
+
 /* SOCIALS FOOTER =============== */
 footer {
     padding-bottom: 2%;
